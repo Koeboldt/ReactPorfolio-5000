@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
-import MyWork from './pages/MyWork.jsx'
+import MyProjects from './pages/MyProjects.jsx'
 import Contact from './pages/Contact.jsx'
 import About from './pages/About.jsx'
 const router = createBrowserRouter([
@@ -12,8 +12,8 @@ const router = createBrowserRouter([
     element: <App/>,
     children: [
       {
-        path: 'myWork',
-        element: <MyWork/>
+        path: 'MyProjects',
+        element: <MyProjects/>
       },
       {
         path: 'contact',
