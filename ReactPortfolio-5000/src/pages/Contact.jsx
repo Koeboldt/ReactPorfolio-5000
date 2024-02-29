@@ -2,7 +2,11 @@ import React from 'react';
 
 const Contact= () => {
     return (
-        <div> contact</div>
+        <form >
+            <input type='text' id='email' name='email' placeholder='email goes here'/>
+            <br></br>
+            <input type='text' id='message' name='message' placeholder='your message to me goes here'/>
+        </form>
     )
 }
 
