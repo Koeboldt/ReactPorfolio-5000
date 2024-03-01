@@ -5,7 +5,7 @@ function ProjectCard(props) {
           <h2>{props.name}</h2>
         </div>
         <div >{props.description}</div>
-        <button href={props.link}> {props.name} </button>
+        <a href={props.link}><img src={props.image}/></a>
       </div>
     );
   }
