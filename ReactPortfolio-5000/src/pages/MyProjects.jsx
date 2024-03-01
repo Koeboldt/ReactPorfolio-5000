@@ -6,7 +6,9 @@ const MyProjects= () => {
     return (
         <div> 
             <h2>My Work</h2>
-            <p>project cards will go here</p>
+            {projects.map((project) =>
+                <ProjectCard key={project.id} name={project.name} description={project.description} link={project.link} image={project.image} />  
+        )}
         </div>
 
     )
